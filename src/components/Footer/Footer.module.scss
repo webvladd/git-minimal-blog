@@ -1,0 +1,18 @@
+@import "../../style/fonts";
+@import "../../style/variables";
+
+.footer {
+  border-top: 1px solid $light-blue;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: $Inter-Regular;
+  font-size: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+  span {
+    font-family: $Inter-Bold;
+    margin-right: 5px;
+  }
+}

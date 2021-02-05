@@ -1,0 +1,18 @@
+@import "../../style/fonts";
+@import "../../style/variables";
+
+.btnShowMore {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 47px;
+
+  a {
+    font-family: $Inter-Bold;
+    font-size: 12px;
+    color: $white;
+    background-color: $dark-blue;
+    border-radius: 6px;
+    padding: 14px 42px;
+  }
+}
